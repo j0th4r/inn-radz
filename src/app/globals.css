@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #313f38;
+  --foreground: #fffcf6;
+  --text: #1b3b36;
+  --secondary: #fcd043;
+  --primary: #313f38;
+  --light-bg: #fffcf6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-helvetica-neue);
+  --font-miracle: var(--font-miracle);
+  --font-helvetica: var(--font-helvetica-neue);
+  /* Custom colors */
+  --color-hotel-green: #313f38;
+  --color-hotel-yellow: #fcd043;
+  --color-hotel-cream: #fffcf6;
+  --color-hotel-text: #1b3b36;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-helvetica-neue), Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Font families */
+.font-miracle {
+  font-family: var(--font-miracle), serif;
+}
+
+.font-helvetica {
+  font-family: var(--font-helvetica-neue), Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
