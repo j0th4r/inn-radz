@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import CurvedLoop from './components/CurvedLoop/CurvedLoop'
 
 // Mock images using Unsplash for high quality hotel/interior photos
 const images = {
@@ -354,7 +355,10 @@ export default function InnRadzHotel() {
                 </div>
 
                 <div className='flex-shrink-0'>
-                  <button className='relative w-[150px] lg:w-[200px] h-[150px] lg:h-[200px] bg-transparent border-2 border-[#3f5148] rounded-full overflow-hidden group hover:border-[#fcd043] transition-colors'>
+                  <a
+                    href='#rooms'
+                    className='relative w-[150px] lg:w-[200px] h-[150px] lg:h-[200px] bg-transparent border-2 border-[#3f5148] rounded-full overflow-hidden group hover:border-[#fcd043] transition-colors block'
+                  >
                     <div className='absolute inset-0 flex flex-col items-center justify-center'>
                       <div className='space-y-2 text-center'>
                         <p className='font-helvetica text-[#fcd043] text-sm italic'>
@@ -374,7 +378,7 @@ export default function InnRadzHotel() {
                         direction='down'
                       />
                     </div>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -468,7 +472,7 @@ export default function InnRadzHotel() {
       {/* Gallery Section */}
       <section className='bg-[#313f38] py-20'>
         <div className='max-w-[1860px] mx-auto px-8'>
-          <div className='text-center mb-16'>
+          <div className='text-center'>
             <h2 className='font-miracle text-[min(150px,8vw)] leading-[0.9] text-[#fcd043] uppercase mb-8'>
               our Rooms
             </h2>
@@ -538,6 +542,8 @@ export default function InnRadzHotel() {
               />
             </div>
           </div>
+
+          <CurvedLoop />
 
           {/* Quote Section */}
           <div className='text-center'>
