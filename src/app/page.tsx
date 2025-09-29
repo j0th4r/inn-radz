@@ -9,9 +9,7 @@ const images = {
 
   // About section images - elegant interiors
   aboutMain:
-    'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=644&h=912&fit=crop&crop=center',
-  aboutSide:
-    'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=323&h=486&fit=crop&crop=center',
+    '/images/about.jpg',
 
   // Rooms section images
   roomSuperior:
@@ -178,7 +176,7 @@ export default function InnRadzHotel() {
       <header className='fixed top-0 left-0 right-0 z-50 px-8 py-6 bg-[#313f38]/90 backdrop-blur-sm'>
         <div className='max-w-[1860px] mx-auto flex items-center justify-between'>
           <div className='font-helvetica font-medium text-[#fffcf6] text-xl capitalize'>
-            Inn Radz
+            INN-RADZ APARTELLE
           </div>
 
           <nav className='hidden md:flex items-center gap-[70px]'>
@@ -209,7 +207,7 @@ export default function InnRadzHotel() {
           </nav>
 
           <div className='font-helvetica text-[#fffcf6] text-base uppercase'>
-            +38 032 297 50 20
+            +63 976 268 8542
           </div>
         </div>
       </header>
@@ -222,8 +220,8 @@ export default function InnRadzHotel() {
             <div className='flex flex-col lg:flex-row justify-between items-center mb-8 gap-12'>
               {/* Left Side - Main Title */}
               <div>
-                <h1 className='font-miracle text-[min(220px,12vw)] leading-[0.9] text-[#fffcf6] font-normal'>
-                  Inn <span className='text-[#fcd043]'>Rad&apos;z</span>
+                <h1 className='font-miracle text-[min(80px,12vw)] leading-[0.9] text-[#fffcf6] font-normal'>
+                  IN-RADZ <span className='text-[#fcd043]'>APARTELLE</span>
                 </h1>
               </div>
 
@@ -280,7 +278,7 @@ export default function InnRadzHotel() {
               {/* Contact Info */}
               <div className='space-y-2'>
                 <p className='font-helvetica text-[#fcd043] text-[26px] uppercase underline'>
-                  +38 032 297 50 20
+                  +63 976 268 8542
                 </p>
                 <p className='font-helvetica text-[#fffcf6] text-[26px] uppercase underline'>
                   GAISANO, Butuan City
@@ -314,15 +312,6 @@ export default function InnRadzHotel() {
                 />
               </div>
 
-              {/* <div className='absolute -right-4 -bottom-4 lg:-right-8 lg:-bottom-8 w-[200px] lg:w-[323px] h-[300px] lg:h-[486px] rounded-2xl overflow-hidden'>
-                <Image
-                  src={images.aboutSide}
-                  alt='Luxury hotel room details'
-                  fill
-                  className='object-cover'
-                  unoptimized
-                />
-              </div> */}
             </div>
 
             {/* Right Side - Content */}
@@ -436,13 +425,6 @@ export default function InnRadzHotel() {
 
             {/* Room Info */}
             <div className='space-y-8'>
-              <div className='flex items-center gap-4 bg-[#162f2b]/5 rounded-full px-6 py-4 w-fit'>
-                <StarIcon className='w-9 h-9 text-[#fcd043]' />
-                <span className='font-helvetica text-[#162f2b] text-[22px] capitalize'>
-                  since 2016
-                </span>
-              </div>
-
               <div className='space-y-6'>
                 <h3 className='font-miracle text-[50px] leading-normal text-[#162f2b] capitalize tracking-wide'>
                   Superior twin
@@ -585,7 +567,7 @@ export default function InnRadzHotel() {
 
                 <div className='border-b border-[#313f38]/20 pb-4'>
                   <p className='font-helvetica text-[#162f2b] text-[min(60px,4vw)] text-center'>
-                    +38 032 297 50 20
+                    +63 976 268 8542
                   </p>
                 </div>
               </div>
@@ -617,7 +599,7 @@ export default function InnRadzHotel() {
                   do eiusmod tempor incididunt.
                 </p>
                 <p className='font-helvetica text-[#162f2b]/32 text-sm'>
-                  ©2025 All rights reserved. Inn Radz
+                  ©2025 All rights reserved. IN-RADZ APARTELLE
                 </p>
               </div>
 
@@ -628,12 +610,6 @@ export default function InnRadzHotel() {
                 <div className='space-y-2'>
                   <p className='font-helvetica font-medium text-[#162f2b] text-base uppercase hover:text-[#fcd043] cursor-pointer transition-colors'>
                     Facebook
-                  </p>
-                  <p className='font-helvetica font-medium text-[#162f2b] text-base uppercase hover:text-[#fcd043] cursor-pointer transition-colors'>
-                    Instagram
-                  </p>
-                  <p className='font-helvetica font-medium text-[#162f2b] text-base uppercase hover:text-[#fcd043] cursor-pointer transition-colors'>
-                    Twitter
                   </p>
                 </div>
               </div>

@@ -20,7 +20,7 @@ interface CurvedLoopProps {
 }
 
 const CurvedLoop: FC<CurvedLoopProps> = ({
-  marqueeText = "Inn Rad'z",
+  marqueeText = "IN-RADZ APARTELLE",
   speed = 2,
   className,
   curveAmount = 0,
